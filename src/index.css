@@ -1,0 +1,65 @@
+:root {
+  /* Brand colors */
+  --color-primary: #4a90d9;
+  --color-success: #7ec850;
+  --color-danger: #e74c3c;
+  --color-warning: #f39c12;
+
+  /* Tree badge depth colors */
+  --color-depth-0: #4a90d9;
+  --color-depth-1: #7ec850;
+  --color-depth-2: #8fd460;
+  --color-depth-3: #b8e07a;
+  --color-depth-deep: #c5e68a;
+
+  /* Kanban column colors */
+  --color-todo: #4a90d9;
+  --color-in-progress: #f39c12;
+  --color-done: #27ae60;
+
+  /* Neutrals */
+  --color-text: #1a1a2e;
+  --color-text-secondary: #555;
+  --color-text-muted: #888;
+  --color-border: #e0e0e0;
+  --color-bg: #f5f7fa;
+  --color-bg-card: #fff;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}

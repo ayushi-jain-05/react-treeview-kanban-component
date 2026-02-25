@@ -1,0 +1,74 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.subtitle {
+  margin: var(--spacing-xs) 0 0;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.toolbar {
+  margin-bottom: 16px;
+}
+
+.addRootBtn {
+  padding: var(--spacing-sm) 18px;
+  border: 1px dashed #bbb;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.addRootBtn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: #f0f7ff;
+}
+
+.tree {
+  padding: 16px 16px 16px 8px;
+  min-height: 200px;
+}
+
+.empty {
+  text-align: center;
+  padding: 48px 16px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.dragOverlay {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 4px 16px rgba(74, 144, 217, 0.35);
+}
+
+.badge {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 11px;
+}

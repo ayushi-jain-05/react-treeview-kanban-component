@@ -1,0 +1,22 @@
+.label {
+  cursor: default;
+  padding: 2px 4px;
+  border-radius: 3px;
+  user-select: none;
+  min-width: 40px;
+  display: inline-block;
+}
+
+.label:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.input {
+  font: inherit;
+  padding: 2px 4px;
+  border: 1px solid var(--color-primary);
+  border-radius: 3px;
+  outline: none;
+  background: var(--color-bg-card);
+  min-width: 80px;
+}
